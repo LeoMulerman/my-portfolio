@@ -1,0 +1,100 @@
+
+.parent {
+	background-image: url("img/webinar-ergonomics-office.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+
+	display: block;
+	padding: 30px;
+    height: 100%;
+ 
+}
+/* .parent::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+} */
+
+@media only screen and (max-width: 767px) {   .parent {       background-image: url(img/уменьшенная\ версия.jpg);   } }
+
+/* @media only screen and (max-width: 767px) {   .parent::before {  
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+         } }
+ */
+
+.elem {
+	width: 200px;
+	height: 621px;
+	padding: 10px;
+}
+.elem h1 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    z-index: 2;
+}
+
+@media (max-width: 500px) {
+    .elem h1 {
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        z-index: 2;
+    }
+}
+.elem p {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    z-index: 2;
+}
+@media (max-width: 500px) {
+    .elem p {
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 37%;
+        z-index: 2;
+    }
+}
+.elem p.active {
+display: none;
+}
+
+.liner {
+    
+    width: 400px;
+    border: 1px solid orange;
+    margin: 70px auto;
+}
+.navbar {
+    font-family: cursive;
+}
+.my-class-text {
+    font-size: 25px;
+    
+}
+html, body {
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
