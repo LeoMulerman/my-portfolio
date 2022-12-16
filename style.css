@@ -87,6 +87,11 @@ display: none;
     border: 1px solid orange;
     margin: 70px auto;
 }
+@media (max-width: 500px) {
+    .liner {
+        width: 500px;
+    }
+}
 .navbar {
     font-family: cursive;
 }
